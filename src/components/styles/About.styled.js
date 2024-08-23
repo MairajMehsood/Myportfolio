@@ -19,7 +19,7 @@ export const AboutContent = styled.div`
 export const AboutImageContainer = styled.div`
   position: relative;
   width: 45%;
-  height: 28rem;
+  height: 40rem;
   z-index: 3;
 
   &::after {
@@ -44,7 +44,7 @@ export const AboutImageContainer = styled.div`
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     width: 100%;
-    height: 20rem;
+    height: 30rem;
     margin-bottom: 1.75rem;
 
     &::after {
